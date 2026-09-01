@@ -63,11 +63,10 @@ module.exports = {
   			}
   		},
   		fontFamily: {
-  			sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-  			heading: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-  			body: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-  			display: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-  			mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace']
+  			heading: ['var(--font-heading)'],
+  			body: ['var(--font-body)'],
+  			display: ['var(--font-display)'],
+  			mono: ['var(--font-mono)']
   		},
   		keyframes: {
   			'accordion-down': {
